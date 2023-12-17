@@ -4,6 +4,7 @@ The my_c_signal_handler.c file is a signal handler with code to handle three dif
 1. a periodic signal from an alarm (set by the code with the alarm timer argument)
 2. a keyboard interrupt signal
 3. a user defined signal
+   
 The send_signal.c is used to send signals to other programs including sending signals to the running my_c_signal_handler.
 I also did a third program where I add an exception handler that handles divide by 0 exceptions.
 my_div0_handler.c does the following:
